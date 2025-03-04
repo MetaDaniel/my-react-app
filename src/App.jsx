@@ -10,6 +10,7 @@ function App() {
     return(
       <>
       <Card/>
+      <Card/>
       <Button/>
 
       <Student name= "Spongebob" age= {30} isStudent={true}/>
@@ -17,7 +18,8 @@ function App() {
       <Student name= "Squidward" age={50} isStudent={false}/>
       <Student name= "Sandy" age={27} isStudent={true}/>
 
-      <UserGreeting isLogged={true} username = "Metalion"/>
+      <UserGreeting isLoggedIn ={false} userName ="Metalion"/>
+
 
       </>
     );
