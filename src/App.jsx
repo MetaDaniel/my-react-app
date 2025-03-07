@@ -3,6 +3,7 @@ import Button from "./button.jsx"
 import Student from "./students.jsx"
 import UserGreeting from "./Usergreeting.jsx"
 import List from "./List.jsx"
+import Button2 from "./Button2.jsx"
 
 
 
@@ -19,7 +20,8 @@ function App() {
       <Student name= "Squidward" age={50} isStudent={false}/>
       <Student name= "Sandy" age={27} isStudent={true}/>
       <UserGreeting isLoggedIn ={true} username = "Metalion" />
-      <List/>
+      <Button2/>
+      
 
 
       </>
