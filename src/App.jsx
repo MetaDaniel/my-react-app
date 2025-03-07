@@ -1,8 +1,9 @@
 import Card from "./card"
 import Button from "./button.jsx"
 import Student from "./students.jsx"
-import proTypes from "prop-types"
 import UserGreeting from "./Usergreeting.jsx"
+import List from "./List.jsx"
+
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
       <Student name= "Patrick" age={42} isStudent={false}/>
       <Student name= "Squidward" age={50} isStudent={false}/>
       <Student name= "Sandy" age={27} isStudent={true}/>
-
-      <UserGreeting isLoggedIn ={false} userName ="Metalion"/>
+      <UserGreeting isLoggedIn ={true} username = "Metalion" />
+      <List/>
 
 
       </>
