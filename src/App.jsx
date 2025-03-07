@@ -5,7 +5,8 @@ import UserGreeting from "./Usergreeting.jsx"
 import List from "./List.jsx"
 import Button2 from "./Button2.jsx"
 import ProfilePicture from "./profilePicture.jsx"
-
+import MyComponent from "./MyComponent.jsx"
+import Counter from "./Counter.jsx"
 
 
 
@@ -24,6 +25,8 @@ function App() {
       <UserGreeting isLoggedIn ={true} username = "Metalion" />
       <Button2/>
       <ProfilePicture/>
+      <MyComponent />
+      <Counter/>
 
       
 
