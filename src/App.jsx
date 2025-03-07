@@ -4,6 +4,8 @@ import Student from "./students.jsx"
 import UserGreeting from "./Usergreeting.jsx"
 import List from "./List.jsx"
 import Button2 from "./Button2.jsx"
+import ProfilePicture from "./profilePicture.jsx"
+
 
 
 
@@ -21,6 +23,8 @@ function App() {
       <Student name= "Sandy" age={27} isStudent={true}/>
       <UserGreeting isLoggedIn ={true} username = "Metalion" />
       <Button2/>
+      <ProfilePicture/>
+
       
 
 
