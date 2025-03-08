@@ -8,6 +8,7 @@ import ProfilePicture from "./profilePicture.jsx"
 import MyComponent from "./MyComponent.jsx"
 import Counter from "./Counter.jsx"
 import ChangeComponent from "./ChangeComponent.jsx"
+import colorPicker from "./ColorPicker.jsx"
 
 
 
@@ -29,6 +30,7 @@ function App() {
       <MyComponent />
       <Counter/>
       <ChangeComponent />
+      <colorPicker />
 
       
 
