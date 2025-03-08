@@ -8,7 +8,8 @@ import ProfilePicture from "./profilePicture.jsx"
 import MyComponent from "./MyComponent.jsx"
 import Counter from "./Counter.jsx"
 import ChangeComponent from "./ChangeComponent.jsx"
-import colorPicker from "./ColorPicker.jsx"
+import ColorPicker from "./ColorPicker.jsx"
+import ObjectState from "./ObjectState.jsx"
 
 
 
@@ -30,13 +31,13 @@ function App() {
       <MyComponent />
       <Counter/>
       <ChangeComponent />
-      <colorPicker />
+      <ColorPicker />
+      <ObjectState />
 
       
-
-
       </>
     );
 }
 
 export default App
+ 
