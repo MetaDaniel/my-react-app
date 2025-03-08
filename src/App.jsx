@@ -7,6 +7,7 @@ import Button2 from "./Button2.jsx"
 import ProfilePicture from "./profilePicture.jsx"
 import MyComponent from "./MyComponent.jsx"
 import Counter from "./Counter.jsx"
+import ChangeComponent from "./ChangeComponent.jsx"
 
 
 
@@ -27,6 +28,7 @@ function App() {
       <ProfilePicture/>
       <MyComponent />
       <Counter/>
+      <ChangeComponent />
 
       
 
