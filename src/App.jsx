@@ -10,7 +10,7 @@ import Counter from "./Counter.jsx"
 import ChangeComponent from "./ChangeComponent.jsx"
 import ColorPicker from "./ColorPicker.jsx"
 import ObjectState from "./ObjectState.jsx"
-
+import MyComponent2 from "./MyComponent2.jsx"
 
 
 function App() {
@@ -33,6 +33,7 @@ function App() {
       <ChangeComponent />
       <ColorPicker />
       <ObjectState />
+      <MyComponent2  /*Updating state of arrays in react*/ />
 
       
       </>
