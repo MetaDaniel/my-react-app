@@ -11,6 +11,7 @@ import ChangeComponent from "./ChangeComponent.jsx"
 import ColorPicker from "./ColorPicker.jsx"
 import ObjectState from "./ObjectState.jsx"
 import MyComponent2 from "./MyComponent2.jsx"
+import MyComponent3 from "./MyComponent3.jsx"
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <ColorPicker />
       <ObjectState />
       <MyComponent2  /*Updating state of arrays in react*/ />
+      <MyComponent3  /*Updating state of arrays of objects*/ />
 
       
       </>
