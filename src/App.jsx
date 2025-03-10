@@ -12,6 +12,7 @@ import ColorPicker from "./ColorPicker.jsx"
 import ObjectState from "./ObjectState.jsx"
 import MyComponent2 from "./MyComponent2.jsx"
 import MyComponent3 from "./MyComponent3.jsx"
+import TodoList from "./ToDolist.jsx"
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <ObjectState />
       <MyComponent2  /*Updating state of arrays in react*/ />
       <MyComponent3  /*Updating state of arrays of objects*/ />
+      <TodoList  /*Building to do list*/ />
 
       
       </>
