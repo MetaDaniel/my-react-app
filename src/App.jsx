@@ -14,6 +14,8 @@ import MyComponent2 from "./MyComponent2.jsx"
 import MyComponent3 from "./MyComponent3.jsx"
 import TodoList from "./ToDolist.jsx"
 import MyComponent4 from "./MyComponent4.jsx"
+import MyComponent5 from "./MyComponent5.jsx"
+import DigitalClock from "./DigitalClock.jsx"
 
 
 function App() {
@@ -39,6 +41,8 @@ function App() {
       <MyComponent2  /*Updating state of arrays in react*/ />
       <MyComponent3  /*Updating state of arrays of objects*/ />
       <MyComponent4  /*useEffect in react-hook*/ />
+      <MyComponent5  /*width and height adjustment with user effect*/ />
+      <DigitalClock  /*Digital clockt*/ />
       <TodoList  /*Building to do list*/ />
 
       

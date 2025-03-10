@@ -229,6 +229,35 @@ li{
   margin-right: 10px;
 }
 
+.clock-body{
+background-image: url(assets/Accesories.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+width: 100%;
+position: relative ;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.clock-container{
+backdrop-filter: blur(5px);
+width: 100vw;
+padding:10px 0 ;
+}
+
+.clock{
+color: blue;
+font-size: 6rem;
+font-weight: bold;
+font-family:monospace ;
+text-shadow:3px 3px 5px rgb(49, 49, 79) ;
+text-align: center;
+}
+
 
 
 
