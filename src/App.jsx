@@ -18,6 +18,7 @@ import MyComponent5 from "./MyComponent5.jsx"
 import DigitalClock from "./DigitalClock.jsx"
 import MyComponent6A from "./Component6A.jsx"
 import MyComponent7 from "./MyComponent7.jsx"
+import Stopwatch from "./Stopwatch.jsx"
 
 
 function App() {
@@ -45,9 +46,11 @@ function App() {
       <MyComponent4  /*useEffect in react-hook*/ />
       <MyComponent5  /*width and height adjustment with user effect*/ />
       <MyComponent6A  /**/ />
-      <MyComponent7  /**/ />
+      <MyComponent7  /*how to use useRef to and state*/ />
       <DigitalClock  /*Digital clockt*/ />
       <TodoList  /*Building to do list*/ />
+      <Stopwatch  /* Stopclok project*/ /> 
+      
       </>
     );
 }
